@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SonicD5/d5betterchat"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/d5betterchat/icon.png",
 	"environment": "*",
 	"entrypoints": {
