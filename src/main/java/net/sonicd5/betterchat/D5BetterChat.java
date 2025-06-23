@@ -1,17 +1,20 @@
 package net.sonicd5.betterchat;
 
+import com.mojang.logging.LogUtils;
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.network.message.SentMessage;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class D5BetterChat implements ModInitializer {
 	public static final String MOD_ID = "d5betterchat";
-	public static final Logger LOGGER = LoggerFactory.getLogger("SonicD5's Better Chat");
+	public static final Logger LOGGER = LogUtils.getLogger();
 
 	@Override
 	public void onInitialize() {
-		SentMessage.Chat
+		var cfg = D5BetterChatConfig.load();
 	}
+
+	public static Identifier id(String path) { return Identifier.of(MOD_ID, path); }
+
 }

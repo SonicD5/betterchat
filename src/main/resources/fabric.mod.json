@@ -3,17 +3,16 @@
 	"id": "d5betterchat",
 	"version": "${version}",
 	"name": "SonicD5's Better Chat",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "abobo",
 	"authors": [
-		"Me!"
+		"SonicD5"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/SonicD5/d5betterchat"
+		"sources": "https://github.com/SonicD5/betterchat"
 	},
 	"license": "MIT",
 	"icon": "assets/d5betterchat/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"net.sonicd5.betterchat.D5BetterChat"
